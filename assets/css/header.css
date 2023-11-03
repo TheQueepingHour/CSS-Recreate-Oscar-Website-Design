@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+header {
+    margin-bottom: 10em;
+}
+.headDiv {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../../assets/images/hero.png");
+    background-size: cover;
+    color: white;
+    height: 40vw;
+    position: relative;
+}
+.headLogo {
+    font-size: 1.5em;
+}
+.headnav {
+    margin-top: 1%;
+}
+.headnav ul {
+    list-style-type: none;
+}
+.headnav ul li {
+    padding: 0 1em;
+    display: inline;
+    font-size: 1em;
+}
+.shop {
+    margin-top: 1%;
+    text-align: right;
+}
+hr {
+    color: white;
+}
+
+.planForm img {
+    width: 60vw;
+    position: absolute;
+    bottom: -7em;
+    left: 20%;
+    border-radius: 10px;
+}
